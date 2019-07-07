@@ -14,6 +14,6 @@ header {
     padding: 05px 0px 0px 0px;
 }
 
-.logo {
-    background-image: url("logo.png");
+.navbar-nav {
+    text-align-last: right;
 }
