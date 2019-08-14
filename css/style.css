@@ -1,94 +1,120 @@
-    /*Css*/
-    
-    body {
-        margin: 0px;
-        font-family: -apple-system, BlinkMacSystemFont;
-        background: lightyellow;
-    }
-    
-    header {
-        font-size: 14px;
-    }
-    
-    .top-header {
-        background-color: #e6e6e6;
-        padding: 05px 0px 0px 0px;
-    }
-    
-    .navbar {
-        color: black;
-        background: whitesmoke;
-    }
-    
-    .navbar-nav {
-        margin-left: 800px;
-    }
-    
-    .navbar-nav a {
-        font-size: 14px;
-        padding: 0px 0px 0px 0px;
-        color: black;
-    }
-    
-    .navbar-nav a :hover {
-        background: red;
-    }
-    
-    .main {
-        background-image: url("../images/Modern.jpg");
-        background-position: center;
-        background-repeat: no-repeat;
-        background-position: center;
-        background-size: auto;
-        padding-bottom: 100px;
-    }
-    
-    .main-heading {
-        padding: 100px 00px 00px 00px;
-    }
-    
-    .main-heading p {
-        color: white;
-        font-size: 30px;
-        font-family: Arial, Helvetica, sans-serif;
-        font-weight: bold;
-        text-transform: uppercase;
-    }
-    
-    .text {
-        color: white;
-        margin: 0 auto;
-        font-size: 12px;
-        text-align: justify;
-    }
-    
-    .btn {
-        background: gold;
-        color: blacK;
-        padding: none;
-        border: none;
-    }
-    
-    .btn:hover {
-        background: grey;
-        color: white;
-    }
-    
-    .bar {
-        background: gold;
-        color: black;
-        text-align: center;
-        font-size: 20px;
-        padding: 10px 0px 10px 0px;
-    }
-    /*our Services */
-    
-    .our-services {
-        text-align: center;
-        padding: 40px 0px 0px 0px;
-        font-family: Arial, Helvetica, sans-serif;
-    }
-    
-    .our-services p {
-        font-size: 12px;
-    }
+/*Css*/
+
+body {
+    margin: 0px;
+    font-family: -apple-system, BlinkMacSystemFont;
+    background: lightyellow;
+}
+
+header {
+    font-size: 14px;
+    padding: none;
+    margin: none;
+}
+
+.top-header {
+    background: lightgrey;
+    padding: 10px 0px 0px 0px;
+}
+
+.navbar {
+    color: black;
+    background: whitesmoke;
+}
+
+.navbar-nav {
+    margin-left: 800px;
+}
+
+.navbar-nav a {
+    font-size: 14px;
+    padding: 0px 0px 0px 0px;
+    color: black;
+}
+
+.navbar-nav a :hover {
+    background: red;
+}
+
+.main {
+    background-image: url("../images/Modern.jpg");
+    background-position: center;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: auto;
+    padding-bottom: 100px;
+}
+
+.main-heading {
+    padding: 100px 00px 00px 00px;
+}
+
+.main-heading p {
+    color: white;
+    font-size: 30px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: bold;
+    text-transform: uppercase;
+}
+
+.text {
+    color: white;
+    margin: 0 auto;
+    font-size: 12px;
+    text-align: justify;
+}
+
+.btn {
+    background: gold;
+    color: blacK;
+    padding: none;
+    border: none;
+}
+
+.btn:hover {
+    background: grey;
+    color: white;
+}
+
+.bar {
+    background: gold;
+    color: black;
+    text-align: center;
+    font-size: 20px;
+    padding: 10px 0px 10px 0px;
+}
+
+
+/*our Services */
+
+.our-services {
+    text-align: center;
+    padding: 40px 0px 0px 0px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+.our-services p {
+    font-size: 14px;
+    padding: 10px 0px 50px 0px;
+}
+
+.boxes {
+    background: gold;
+    padding: 15px;
+}
+
+.content_box {
+    background: white;
+    height: 300px;
+}
+
+.content_box span h5 {
+    padding: 0px 0px 5px 0px;
+    font-weight: bold;
+    text-align: center;
+}
+
+.content_box p {
+    text-align: justify;
+    padding: 0px 4px 0px 4px;
+}
