@@ -2,7 +2,7 @@
 
 body {
     margin: 0px;
-    font-family: -apple-system, BlinkMacSystemFont;
+    font-family: -apple-system;
     background: lightyellow;
 }
 
@@ -98,9 +98,9 @@ header {
     padding: 10px 0px 50px 0px;
 }
 
-.boxes {
-    background: gold;
-    padding: 15px;
+.color-fill {
+    height: 150px;
+    background: goldenrod;
 }
 
 .content_box {
@@ -109,12 +109,21 @@ header {
 }
 
 .content_box span h5 {
-    padding: 0px 0px 5px 0px;
-    font-weight: bold;
-    text-align: center;
+    padding: 15px 0px 5px 0px;
+    text-align: left;
+    text-transform: uppercase;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 .content_box p {
     text-align: justify;
     padding: 0px 4px 0px 4px;
+}
+
+
+/*NEW SECTION*/
+
+.video {
+    background: orange;
+    height: 100px;
 }
