@@ -1,129 +1,173 @@
-/*Css*/
-
-body {
-    margin: 0px;
-    font-family: -apple-system;
-    background: lightyellow;
-}
-
-header {
-    font-size: 14px;
-    padding: none;
-    margin: none;
-}
-
-.top-header {
-    background: lightgrey;
-    padding: 10px 0px 0px 0px;
-}
-
-.navbar {
-    color: black;
-    background: whitesmoke;
-}
-
-.navbar-nav {
-    margin-left: 800px;
-}
-
-.navbar-nav a {
-    font-size: 14px;
-    padding: 0px 0px 0px 0px;
-    color: black;
-}
-
-.navbar-nav a :hover {
-    background: red;
-}
-
-.main {
-    background-image: url("../images/Modern.jpg");
-    background-position: center;
-    background-repeat: no-repeat;
-    background-position: center;
-    background-size: auto;
-    padding-bottom: 100px;
-}
-
-.main-heading {
-    padding: 100px 00px 00px 00px;
-}
-
-.main-heading p {
-    color: white;
-    font-size: 30px;
-    font-family: Arial, Helvetica, sans-serif;
-    font-weight: bold;
-    text-transform: uppercase;
-}
-
-.text {
-    color: white;
-    margin: 0 auto;
-    font-size: 12px;
-    text-align: justify;
-}
-
-.btn {
-    background: gold;
-    color: blacK;
-    padding: none;
-    border: none;
-}
-
-.btn:hover {
-    background: grey;
-    color: white;
-}
-
-.bar {
-    background: gold;
-    color: black;
-    text-align: center;
-    font-size: 20px;
-    padding: 10px 0px 10px 0px;
-}
-
-
-/*our Services */
-
-.our-services {
-    text-align: center;
-    padding: 40px 0px 0px 0px;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.our-services p {
-    font-size: 14px;
-    padding: 10px 0px 50px 0px;
-}
-
-.color-fill {
-    height: 150px;
-    background: goldenrod;
-}
-
-.content_box {
-    background: white;
-    height: 300px;
-}
-
-.content_box span h5 {
-    padding: 15px 0px 5px 0px;
-    text-align: left;
-    text-transform: uppercase;
-    font-family: Arial, Helvetica, sans-serif;
-}
-
-.content_box p {
-    text-align: justify;
-    padding: 0px 4px 0px 4px;
-}
-
-
-/*NEW SECTION*/
-
-.video {
-    background: orange;
-    height: 100px;
-}
+    /*Css*/
+    
+    body {
+        margin: 0px;
+        font-family: -apple-system;
+        background: lightyellow;
+    }
+    
+    header {
+        font-size: 14px;
+        padding: none;
+        margin: none;
+    }
+    
+    .top-header {
+        background: lightgrey;
+        padding: 10px 0px 0px 0px;
+    }
+    
+    .navbar {
+        color: black;
+        background: whitesmoke;
+    }
+    
+    .navbar-nav {
+        margin-left: 800px;
+    }
+    
+    .navbar-nav a {
+        font-size: 14px;
+        padding: 0px 0px 0px 0px;
+        color: black;
+    }
+    
+    .navbar-nav a :hover {
+        background: red;
+    }
+    
+    .main {
+        background-image: url("../images/Modern.jpg");
+        background-position: center;
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: auto;
+        padding-bottom: 100px;
+    }
+    
+    .main-heading {
+        padding: 100px 00px 00px 00px;
+    }
+    
+    .main-heading p {
+        color: white;
+        font-size: 30px;
+        font-family: Arial, Helvetica, sans-serif;
+        font-weight: bold;
+        text-transform: uppercase;
+    }
+    
+    .text {
+        color: white;
+        margin: 0 auto;
+        font-size: 12px;
+        text-align: justify;
+    }
+    
+    .btn {
+        background: gold;
+        color: blacK;
+        padding: none;
+        border: none;
+    }
+    
+    .btn:hover {
+        background: grey;
+        color: white;
+    }
+    
+    .bar {
+        background: gold;
+        color: black;
+        text-align: center;
+        font-size: 20px;
+        padding: 10px 0px 10px 0px;
+    }
+    /*our Services */
+    
+    .our-services {
+        text-align: center;
+        padding: 40px 0px 0px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .our-services p {
+        font-size: 14px;
+        padding: 10px 0px 50px 0px;
+    }
+    
+    .our-services h4 {
+        font-weight: bold;
+    }
+    
+    .color-fill {
+        height: 150px;
+        background: goldenrod;
+    }
+    
+    .content_box {
+        height: 300px;
+    }
+    
+    .content_box span h5 {
+        padding: 15px 0px 5px 0px;
+        text-transform: uppercase;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .content_box p {
+        text-align: justify;
+        padding: 0px 4px 0px 4px;
+    }
+    
+    .content-boxes {
+        padding-bottom: 100px;
+    }
+    /*NEW SECTION Featured Workss*/
+    
+    .right-content {
+        list-style: none;
+        line-height: 0px;
+        letter-spacing: 5px;
+    }
+    
+    .right-content li img {
+        padding: 23px 00px 0px 0px;
+    }
+    
+    .building img {
+        float: left;
+        width: 70px;
+    }
+    
+    #right {
+        text-align: left;
+        padding: 50px 0px 00px 80px;
+    }
+    
+    .anchor-links {
+        text-align: center;
+        color: black;
+    }
+    
+    .anchor-links a {
+        letter-spacing: 0px;
+        padding: 0px 5px 0px 5px;
+        color: black;
+        font-size: 16px;
+    }
+    
+    .Featured-Works {
+        text-align: center;
+        padding: 40px 0px 0px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .Featured-Works p {
+        font-size: 14px;
+        padding: 10px 0px 50px 0px;
+    }
+    
+    .Featured-Works h4 {
+        font-weight: bold;
+    }
