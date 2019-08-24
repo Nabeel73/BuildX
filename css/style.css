@@ -171,3 +171,56 @@
     .Featured-Works h4 {
         font-weight: bold;
     }
+    /*New Section*/
+    
+    .color-box-1 {
+        height: 250px;
+        background: cadetblue;
+    }
+    
+    .color-box-2 {
+        height: 200px;
+        background: goldenrod;
+    }
+    
+    .AD h5 {
+        padding: 5px 0px 0px 5px;
+        background: white;
+        height: 40px;
+    }
+    
+    .color-box-3 {
+        height: 250px;
+        background: yellow;
+    }
+    
+    .color-box-4 {
+        height: 250px;
+        background: cyan;
+    }
+    
+    .color-box-5 {
+        height: 250px;
+        background: purple;
+    }
+    
+    .color-box-6 {
+        height: 250px;
+        background: orange;
+    }
+    
+    .Customer-feedback {
+        text-align: center;
+        padding: 40px 0px 0px 0px;
+        font-family: Arial, Helvetica, sans-serif;
+    }
+    
+    .Customer-feedback p {
+        font-size: 14px;
+        padding: 10px 0px 50px 0px;
+    }
+    
+    .Customer-feedback h3 {
+        font-weight: bold;
+        text-transform: uppercase;
+    }
