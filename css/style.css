@@ -2,7 +2,7 @@
     
     body {
         margin: 0px;
-        font-family: -apple-system;
+        font-family: "Lora";
         background: lightyellow;
     }
     
@@ -228,9 +228,32 @@
     footer{
         background-color:#1C2833 ;
         color:white;
-        padding:50px 0px 0px 50px;
-    }
-    .footer-list{
-        display: inline;
+        padding:50px 0px 50px 00px;
         font-size: 14px;
+       
+    }
+    .recent-list{
+        display: inline;
+      
+       
+    }
+    .recent-news {
+        display: inline;
+        list-style: none;
+
+    }
+    footer span img{
+        width: 50px;
+        height: 40px;
+        margin: 2px;
+    }
+    .meeting-list{
+        display: inline;
+        list-style: none;
+        
+        
+    }
+    .meeting-list li{
+        padding: 3px;
+        margin: none;
     }
