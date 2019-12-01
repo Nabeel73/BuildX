@@ -224,3 +224,13 @@
         font-weight: bold;
         text-transform: uppercase;
     }
+
+    footer{
+        background-color:#1C2833 ;
+        color:white;
+        padding:50px 0px 0px 50px;
+    }
+    .footer-list{
+        display: inline;
+        font-size: 14px;
+    }
